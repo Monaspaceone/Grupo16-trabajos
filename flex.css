@@ -1,0 +1,101 @@
+
+* {
+    box-sizing: border-box;
+ }
+
+body {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(105, 77, 77);
+}
+h1{
+   
+  text-align: center;  
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+
+.container {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgray;
+    overflow: hidden;
+   
+}
+
+.image1 {
+    width: 700px;
+    height: 350px;
+    margin: 10px;
+    background-image: url("https://www.wetanz.com/media/amasty/shopby/option_images/146768033123a810f5abad3aa0a1420b83498efab1.jpg") ;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.image2 {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/01/10-lord-of-the-rings-theories-that-actually-make-sense.jpg") ;
+    background-size: cover;
+    object-fit: contain;
+    overflow: hidden;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.image3 {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background-image: url("https://metro.co.uk/wp-content/uploads/2021/12/PRC_214793452.jpg?quality=90&strip=all") ;
+    background-size: cover;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.image4 {
+    width: 700px;
+    height: 300px;
+    margin: 10px;
+    background-image: url("https://ew.com/thmb/qqofw2-fYfIwaXB2eGSA3xbB7h4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/image-tout-5741441aeb5f4a46856513f92e182914.jpg");
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 480px)
+
+{
+    .container {
+        background-color: brown;
+        
+    }
+
+    .image1 {
+        width: 400px ;
+        height: 200px ;
+    }
+
+    .image4 {
+        width: 400px ;
+        height: 200px ;
+    }
+}
+
+@media (min-width: 990px)
+
+{
+    .image3 {
+        background-image: url("https://sm.ign.com/t/ign_latam/screenshot/default/lotr1_a24e.2560.jpg");
+    }
+}
