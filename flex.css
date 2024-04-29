@@ -25,7 +25,7 @@ h1{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background-color: dimgray;
+    background-color: #3aad35;
     overflow: hidden;
    
 }
